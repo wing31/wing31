@@ -1,0 +1,1 @@
+if (hi<ref(hi,-1) and lo>ref(lo,-1), 0, if ((hi - ref(hi,-1))> (ref(lo,-1)-lo), hi- ref(hi,-1), ref(lo,-1)-lo))
